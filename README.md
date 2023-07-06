@@ -3,7 +3,9 @@
 1. wfuzz help 
 * wfuzz -h 
 
-2. File Discovery : 
+2. File Discovery :
+   
+<code> wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/raft-medium-files.txt --hc 301,404,403 "$URL"</code>
 * wfuzz -c -z file,/usr/share/seclists/Discovery/Web-Content/raft-medium-files.txt --hc 301,404,403 "$URL"
 
 3. Directory Discovery : 
