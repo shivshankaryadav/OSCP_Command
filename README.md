@@ -1,6 +1,6 @@
 # OSCP_Command
 
-1. Nmap 
+#Nmap 
   Nmap initial scan :  
   <code>nmap -Pn -n -vvv -oN nmap/initial $ip </code>
 
@@ -17,7 +17,7 @@
   <code>sudo nmap -Pn -n -vvv -sU -oN nmap/udp $ip </code>
 
 
-#Web Content Enumeration 
+# Web Content Enumeration 
 1. wfuzz help 
 * wfuzz -h 
 
