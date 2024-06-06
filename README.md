@@ -1,16 +1,16 @@
 # OSCP_Command
 
 1. Nmap 
-Nmap initial scan 
+Nmap initial scan :
 <code>nmap -Pn -n -vvv -oN nmap/initial $ip </code>
 
-Nmap top port 
+Nmap top port :
 <code>nmap -Pn -n -vvv -p1-500 -oN nmap/partial $ip </code>
 
-Nmap Full Scan 
+Nmap Full Scan :
 <code>nmap -Pn -n -vvv -p- -oN nmap/allports $ip </code>
 
-Nmap Targeted scan 
+Nmap Targeted scan : 
 <code>nmap -Pn -n -vvv -p22,80 -oN nmap/targeted $ip </code>
 
 Nmap UDP Scan
