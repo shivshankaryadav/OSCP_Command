@@ -1,6 +1,6 @@
 # OSCP_Command
 
-#Nmap 
+# Network Scanning with Nmap 
   Nmap initial scan :  
   <code>nmap -Pn -n -vvv -oN nmap/initial $ip </code>
 
